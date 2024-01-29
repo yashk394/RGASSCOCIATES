@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">RG LEGAL ASSOCIATES</string>
+    <string name="maklog"> Make a Login  </string>
+    <string name="forpass">Forgot/change Password?</string>
+    <string name="Login">LogIn</string>
+    <string name="arenew">Are you new?Register Now</string>
+    <string name="usr">Enter Username</string>
+    <string name="password">Enter Password</string>
+    <string name="auth">Authentication</string>
+    <string name="phnu">Enter Phone number</string>
+    <string name="ph">phone</string>
+    <string name="sendc">Send Code</string>
+    <string name="resendc">Resend Code</string>
+    <string name="cod">Code</string>
+    <string name="veri">Verify Code</string>
+    <string name="analysing">analysing OTP..!</string>
+    <string name="wait2"> please wait..</string>
+    <string name="paschn">Password Changed</string>
+    <string name="wrng">Wrong username</string>
+    <string name="pasw">password does not matched</string>
+    <string name="youof">You Are Offline...!</string>
+    <string name="validno">Enter valid number</string>
+    <string name="nomatch1">Phone number does not matched  </string>
+    <string name="regno">Enter Registered Number</string>
+    <string name="validcode">Enter valid code</string>
+    <string name="mobilef">enter mobile first</string>
+    <string name="verifying">verifying...</string>
+    <string name="otpsend">OTP sent to your number</string>
+    <string name="authentication">authentication successfull</string>
+    <string name="something">Something went wrong,try again</string>
+    <string name="title_activity_user">user</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="sure">Do you want to make a call to  </string>
+    <string name="call">call</string>
+    <string name="rushi">RG ASSOCIATES</string>
+    <string name="monum">9527155129</string>
+    <string name="no">no</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <!-- User module -->
+    <string name="about">About RG</string>
+    <string name="view">View Case Details</string>
+    <string name="viewup">View Upcoming Hearing</string>
+    <string name="history">View Previous Hearing Date</string>
+    <string name="contt">Contact Us</string>
+    <string name="direct">Office Location</string>
+    <string name="neup">View events of RG</string>
+
+
+
+</resources>

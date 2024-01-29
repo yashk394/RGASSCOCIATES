@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addcase">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView">
+        <LinearLayout
+            android:id="@+id/linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_marginTop="15dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/patientaddappointment"
+                android:padding="10dp"
+                android:src="@drawable/addappointment" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:padding="10dp"
+                android:text="Add Case"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical">
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#363131"
+                    android:layout_marginBottom="4dp"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#363131"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:text="Case title*"
+                    android:textColor="@color/signupColor"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/ctitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="eg abc"
+                    android:inputType="text"
+                    android:maxLength="30"
+                    android:padding="15dp"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:text="Case Number*"
+                    android:textColor="@color/signupColor"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/cnum"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="eg 123"
+                    android:inputType="number"
+                    android:maxLength="4"
+                    android:padding="15dp"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:text="Client Name*"
+                    android:textColor="@color/signupColor"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/cliname"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:ems="10"
+                    android:hint="eg xyz"
+                    android:inputType="text"
+                    android:maxLength="15"
+                    android:padding="15dp"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:text="Location*"
+                    android:textColor="@color/signupColor"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/location"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="eg pune"
+                    android:inputType="text"
+                    android:maxLength="10"
+                    android:padding="15dp"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:text="Case Category*"
+                    android:textColor="@color/signupColor"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/cat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="eg criminal case"
+                    android:inputType="text"
+                    android:maxLength="30"
+                    android:padding="15dp"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:text="Case Stage*"
+                    android:textColor="@color/signupColor"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/cstage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="eg trial"
+                    android:inputType="text"
+                    android:maxLength="30"
+                    android:padding="15dp"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:text="Case Description*"
+                    android:textColor="@color/signupColor"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/des"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:ems="10"
+                    android:hint="eg murder"
+                    android:inputType="text"
+                    android:maxLength="50"
+                    android:padding="15dp"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+                <Button
+                    android:id="@+id/btn_cancle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:padding="15dp"
+                    android:text="ADD"
+                    android:layout_marginBottom="5dp"
+                    android:elevation="10dp"
+                    android:background="@drawable/roundbutton2"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:textColor="#fff"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+</LinearLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>

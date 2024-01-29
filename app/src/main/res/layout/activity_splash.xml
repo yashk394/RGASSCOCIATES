@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:paddingTop="100dp"
+    android:orientation="vertical"
+    tools:context=".splash">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:src="@drawable/splash"
+        android:background="#000"
+        android:id="@+id/gif1"
+
+        android:layout_gravity="center"
+        />
+
+
+</LinearLayout>
